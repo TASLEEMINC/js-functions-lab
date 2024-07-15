@@ -53,14 +53,14 @@ Complete the exercise in the space below:
 */
 
 let isCharAVowel = (SingChar) => {
-    if(SingChar === "a"||SingChar === "e"||SingChar === "i"||SingChar === "o"||SingChar === "u"||SingChar === "y") {
+    if(SingChar === "a"||SingChar === "e"||SingChar === "i"||SingChar === "o"||SingChar === "u"||SingChar === "A"||SingChar === "E"||SingChar === "I"||SingChar === "O"||SingChar === "U") {
         return true
     } else {
         return false
     }
 }
 
-console.log('Exercise 3 Result:', isCharAVowel("e"));
+console.log('Exercise 3 Result:', isCharAVowel("A"));
 
 /*
 Exercise 4: generateEmail()
